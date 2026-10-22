@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Roles available for public registration (admin removed) -->
+    <string-array name="user_roles">
+        <item>student</item>
+        <item>employer</item>
+    </string-array>
+
+    <!-- All roles (for admin use only) -->
+    <string-array name="all_roles">
+        <item>student</item>
+        <item>employer</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="logbook_types">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+</resources>

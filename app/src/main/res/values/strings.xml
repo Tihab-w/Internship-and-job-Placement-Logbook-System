@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logbook System</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="department">Department</string>
+    <string name="role">Role</string>
+    <string name="available_jobs">Available Opportunities</string>
+    <string name="my_applications">My Applications</string>
+    <string name="feedback">Feedback</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+    <string name="logbook">Logbook</string>
+    <string name="logout">Logout</string>
+    <string name="apply">Apply Now</string>
+    <string name="view_details">View Details</string>
+    <string name="track_status">Track Status</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+</resources>

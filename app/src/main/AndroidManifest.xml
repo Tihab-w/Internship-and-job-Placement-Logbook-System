@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Logbook System"
+        android:theme="@style/Theme.LogbookSystem">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LogbookSystem.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity" android:exported="false" />
+        <activity android:name=".activities.RegisterActivity" android:exported="false" />
+        <activity android:name=".activities.DashboardStudentActivity" android:exported="false" />
+        <activity android:name=".activities.DashboardEmployerActivity" android:exported="false" />
+        <activity android:name=".activities.DashboardAdminActivity" android:exported="false" />
+        <activity android:name=".activities.MainActivity" android:exported="false" />
+        <activity android:name=".activities.JobDetailActivity" android:exported="false" />
+        <activity android:name=".activities.ApplicationStatusActivity" android:exported="false" />
+        <activity android:name=".activities.FeedbackActivity" android:exported="false" />
+        <activity android:name=".activities.ReportActivity" android:exported="false" />
+        <activity android:name=".activities.ProfileActivity" android:exported="false" />
+        <activity android:name=".activities.AddLogbookEntryActivity" android:exported="false" />
+        <activity android:name=".activities.PostJobActivity" android:exported="false" />
+        <activity android:name=".activities.ReviewApplicationsActivity" android:exported="false" />
+         </application>
+</manifest>
